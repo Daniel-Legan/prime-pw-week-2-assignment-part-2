@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called 'name' and assign it the value "Dane".
+// We check to see with a conditional statement if the value stored in 'name' is strictly equivalent to the string "Mary".
+// Since 'name' has the string value of "Dane" stored, the condition is false. Therefore, 'console.log('Hi, Mary!');' will not execute.
+// "How do you do?" is printed since it follows the conditional statement with nothing to compare or evaluate.
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 'secret' is initialized with no initial value. 'code' is assigned a value of 123.
+// Since code does strictly equal 123 in the conditional statement, "super" is assigned to the variable 'secret'. 123 x 2 = 246, and 246 is assigned to 'code'.
+// 246 is not larger than 250, therefore 'secret' remains unchanged.
+// We console.log 'secret' with the string "super".
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// isStudent, age, and zip are all given initial values.
+// The first if statement is false since both sides of the conditional statement must be true with the && operator. 55407 is not larger than 80000.
+// The next if statement is also false. isStudent (true) === false is false. age (34) < 30 is false. Code proceeds to the next if statement.
+// isStudent (true) does strictly equal true. We console.log out "Welcome to Prime!".
 
 //CODE
 /*
@@ -130,12 +130,20 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX: the instructions state colorOne is set to blue. 
+// -- change colorOne to 'blue'.
 let colorOne = 'red';
+
+// FIX: the instructions state colorTwo is set to red. 
+// -- change colorTwo to 'red'.
 let colorTwo = 'blue';
+
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// FIX: colorTwo was not changed to 'purple'. Add colorTwo = 'purple'; per instructions.
 }
 */
 
@@ -147,6 +155,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX: Change || to &&. We are checking if temp > 39 AND time >= 4.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +169,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX: 'no entry' and 'entry' should be swapped in there respective console.log's.
 if(minAge <= age) {
   console.log('no entry');
 } else {
